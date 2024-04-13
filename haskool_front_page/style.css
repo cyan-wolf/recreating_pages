@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+}
+
+.top-links {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.top-links .links {
+    width: fit-content;
+    padding-right: 15%;
+    padding-top: 15px;
+}
+
+.links a {
+    color: rgb(113, 113, 113);
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.links a:hover {
+    color: black;
+}
+
+.intro {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    /* background-color: aquamarine; */
+}
+
+.intro-image p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.intro-demo {
+    /* background-color: bisque; */
+    width: 30%;
+    padding: 10px;
+}
+
+.intro-demo .demo-code {
+    font-size: 8px;
+}
+
+.intro-demo .get-started {
+    text-align: center;
+    margin-top: 20px;
+    /* overflow: hidden; */
+}
+
+.intro-demo .get-started-btn {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.intro-demo .get-started-btn:hover {
+    background-color: rgb(0, 83, 0);
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: green;
+    color: white;
+    margin-top: 100px;
+}
+
+.call-to-action .try-it-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.call-to-action .got-time-heading {
+    font-size: 25px;
+}
+
+.second-section {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer p {
+    text-align: center;
+    width: 30%;
+    font-size: 18px;
+}
+
+.footer a {
+    color: white;
+}
+

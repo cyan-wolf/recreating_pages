@@ -1,0 +1,107 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    height: 100%;
+}
+
+.top-btns {
+    display: flex;
+    flex-direction: row-reverse;
+    /* background-color: brown; */
+    padding: 1%;
+    height: max-content;
+    align-items: center;
+}
+
+.top-btns a {
+    font-size: 14px;
+    color: black;
+}
+
+.top-btns img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.main-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blueviolet; */
+    height: auto;
+    gap: 30px;
+    padding-bottom: 200px;
+}
+
+.main-area img {
+    width: 20%;
+}
+
+/* For centering this form's contents */
+.main-area form {
+    text-align: center;
+}
+
+/* For centering this div's contents */
+.main-area .search {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-area #search-input {
+    width: 40%;
+    height: 35px;
+}
+
+.main-area button {
+    border: none;
+}
+
+.main-area .region-info {
+    margin: 0;
+}
+
+.footer {
+    background-color: rgb(238, 238, 238);
+    height: auto;
+    padding: 15px;
+}
+
+.footer .bottom-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer .region-name {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
