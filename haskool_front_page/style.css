@@ -91,7 +91,10 @@ body {
     margin-right: 200px;
 }
 
-
+.features-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
 
 
