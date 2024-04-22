@@ -3,6 +3,14 @@ body {
     margin: 0;
 }
 
+a {
+    color: green;
+}
+
+a:hover {
+    color: rgb(0, 65, 0);
+}
+
 .top-links {
     display: flex;
     flex-direction: row-reverse;
@@ -96,7 +104,10 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-
+.sponsors .p-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
 .footer {
     display: flex;
