@@ -1,14 +1,20 @@
 
+:root {
+    --link-color: rgb(0, 190, 0);
+    --link-hover-color: rgb(0, 122, 0);
+    --secondary-bg-color: rgb(2, 83, 2);
+}
+
 body {
     margin: 0;
 }
 
 a {
-    color: green;
+    color: var(--link-color);
 }
 
 a:hover {
-    color: rgb(0, 65, 0);
+    color: var(--link-hover-color);
 }
 
 .top-links {
@@ -80,7 +86,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: green;
+    background-color: var(--secondary-bg-color);
     color: white;
     margin-top: 100px;
 }
@@ -125,6 +131,15 @@ a:hover {
 .features-grid {
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.sponsors {
+    margin-left: -200px;
+    margin-right: -200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: var(--secondary-bg-color);
+    color: white;
 }
 
 .sponsors .p-grid {
