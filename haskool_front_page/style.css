@@ -3,6 +3,8 @@
     --link-color: rgb(0, 190, 0);
     --link-hover-color: rgb(0, 122, 0);
     --secondary-bg-color: rgb(2, 83, 2);
+    --side-spacing: 200px;
+    --negative-side-spacing: -200px;
 }
 
 body {
@@ -82,13 +84,19 @@ a:hover {
     background-color: rgb(0, 83, 0);
 }
 
+.call-to-action-container {
+    background-color: var(--secondary-bg-color);
+}
+
 .call-to-action {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: var(--secondary-bg-color);
     color: white;
     margin-top: 100px;
+    margin-left: var(--side-spacing);
+    margin-right: var(--side-spacing);
 }
 
 .call-to-action .try-it-heading {
@@ -101,8 +109,8 @@ a:hover {
 }
 
 .second-section {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: var(--side-spacing);
+    margin-right: var(--side-spacing);
 }
 
 .video-row {
@@ -134,10 +142,10 @@ a:hover {
 }
 
 .sponsors {
-    margin-left: -200px;
-    margin-right: -200px;
-    padding-left: 200px;
-    padding-right: 200px;
+    margin-left: var(--negative-side-spacing);
+    margin-right: var(--negative-side-spacing);
+    padding-left: var(--side-spacing);
+    padding-right: var(--side-spacing);
     background-color: var(--secondary-bg-color);
     color: white;
 }
