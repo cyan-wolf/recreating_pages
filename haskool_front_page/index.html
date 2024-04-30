@@ -92,22 +92,22 @@ class AbstractFactorySerializableDelegateBean extends AbstractModelConsumerDeleg
                 <div class="testimonials-row">
                     <div class="testimonial-box">
                         <a href="." class="img-link"><img src="/images/placeholder-image.jpg" alt="thumbnail"/></a>
-                        <a href="." class="company-name-link">Tech Company</a>
+                        <a href="." class="company-name-link">Fusion</a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ut libero corporis vitae autem maiores. Consectetur nostrum facere iure voluptatibus omnis, odio temporibus aliquid ducimus nulla explicabo repellendus ad rerum!</p>
                     </div>
                     <div class="testimonial-box">
                         <a href="." class="img-link"><img src="/images/placeholder-image.jpg" alt="thumbnail"/></a>
-                        <a href="." class="company-name-link">Tech Company</a>
+                        <a href="." class="company-name-link">Aluminium</a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ut libero corporis vitae autem maiores. Consectetur nostrum facere iure voluptatibus omnis, odio temporibus aliquid ducimus nulla explicabo repellendus ad rerum!</p>
                     </div>
                     <div class="testimonial-box">
                         <a href="." class="img-link"><img src="/images/placeholder-image.jpg" alt="thumbnail"/></a>
-                        <a href="." class="company-name-link">Tech Company</a>
+                        <a href="." class="company-name-link">SheepAI</a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ut libero corporis vitae autem maiores. Consectetur nostrum facere iure voluptatibus omnis, odio temporibus aliquid ducimus nulla explicabo repellendus ad rerum!</p>
                     </div>
                     <div class="testimonial-box">
                         <a href="." class="img-link"><img src="/images/placeholder-image.jpg" alt="thumbnail"/></a>
-                        <a href="." class="company-name-link">Tech Company</a>
+                        <a href="." class="company-name-link">err.tech</a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ut libero corporis vitae autem maiores. Consectetur nostrum facere iure voluptatibus omnis, odio temporibus aliquid ducimus nulla explicabo repellendus ad rerum!</p>
                     </div>
                 </div>
@@ -117,27 +117,54 @@ class AbstractFactorySerializableDelegateBean extends AbstractModelConsumerDeleg
                 <div class="features-grid">
                     <div>
                         <h2>Statistically typed</h2>
-                        <p>Every expression in Haskool is statistically typed.</p>
+                        <p>
+                            Every expression in Haskool is statistically typed. This means that some expressions 
+                            have a chance of being one or more types. For example, a function returning an 
+                            <code>IntOrString</code> has a chance of returning an integer or a string; the caller 
+                            of the function has no way of knowing which.
+                        </p>
                     </div>
                     <div>
                         <h2>Purely OOP</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, est! Omnis repellat, voluptas, temporibus dolorem quis nostrum ab necessitatibus distinctio libero culpa rem minima eveniet quidem dignissimos officiis repellendus. Impedit.</p>
+                        <p>
+                            Every function in Haskool is but a method that accesses and mutates the 
+                            internal state of an object. Every datatype in Haskool is mutable, including 
+                            objects such as strings.
+                        </p>
                     </div>
                     <div>
                         <h2>Explicit types</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea atque labore non enim culpa. Alias est perspiciatis aperiam fuga recusandae! Maiores, consectetur modi! Porro, numquam! Unde aperiam consequatur fugit minus?</p>
+                        <p>
+                            For readability purposes, every type in Haskool must be written explicity. 
+                            There is no type inferrence as that encourages esoteric, hard-to-read code.
+                            Even generic type parameters need to be specified by default; this can be 
+                            turned off with a non-standard flag on some compilers.
+                        </p>
                     </div>
                     <div>
                         <h2>Single threaded</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea atque labore non enim culpa. Alias est perspiciatis aperiam fuga recusandae! Maiores, consectetur modi! Porro, numquam! Unde aperiam consequatur fugit minus?</p>
+                        <p>
+                            Haskool does not lend itself well to concurrency. For this reason, all 
+                            Haskool programs are single threaded by default and concurrency is not 
+                            supported. Multithreading can be achieved with some third pary libraries.
+                        </p>
                     </div>
                     <div>
                         <h2>Eager evaluation</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea atque labore non enim culpa. Alias est perspiciatis aperiam fuga recusandae! Maiores, consectetur modi! Porro, numquam! Unde aperiam consequatur fugit minus?</p>
+                        <p>
+                            Every expression in Haskool is immediately evaluated, unlike some ivory tower 
+                            languages. Any subexpressions that need to be evaluated are processed recursively. 
+                            Expressions are encouraged to have side effects to avoid any reorganizing by 
+                            the compiler.
+                        </p>
                     </div>
                     <div>
                         <h2>No generics</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea atque labore non enim culpa. Alias est perspiciatis aperiam fuga recusandae! Maiores, consectetur modi! Porro, numquam! Unde aperiam consequatur fugit minus?</p>
+                        <p>
+                            Even though Haskool looks like it supports generic programming on the surface, 
+                            it actually follows a model similar to the Java programming language, in which
+                            any generic type parameter is erased at runtime.
+                        </p>
                     </div>
                 </div>
             </div>
