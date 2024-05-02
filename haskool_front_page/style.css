@@ -3,7 +3,7 @@
     --link-color: rgb(0, 190, 0);
     --link-hover-color: rgb(0, 122, 0);
     --secondary-bg-color: rgb(2, 83, 2);
-    --side-spacing: 200px;
+    --side-spacing: 170px;
     --negative-side-spacing: calc(-1 * var(--side-spacing));
 }
 
@@ -182,11 +182,25 @@ a:hover {
     padding-right: var(--side-spacing);
     background-color: var(--secondary-bg-color);
     color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .sponsors .p-grid {
     display: grid;
     grid-template-columns: 50% 50%;
+    column-gap: 40px;
+    row-gap: 15px;
+}
+
+.sponsors h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.sponsors p {
+    margin: 0;
 }
 
 .footer {
