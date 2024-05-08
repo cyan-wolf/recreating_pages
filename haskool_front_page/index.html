@@ -29,12 +29,12 @@
                 <p>Imperative, statistically typed code.</p>
                 <pre class="demo-code">
                     <code class="language-javascript">
-class AbstractFactorySerializableDelegateBean extends AbstractModelConsumerDelegate {
+class AbstractFactorySerializableDelegateBean
+    extends AbstractModelConsumerDelegate 
+{
     setAbstractFactoryBeanData(newAbstractFactoryBeanData) {
-        var validator = new AbstractFactorySerializableDelegateBeanDataValidator();
+        var validator = new AbstractFactoryBeanDataValidator();
         
-        if (!validator.isValid(newAbstractFactoryBeanData))
-            throw new IllegalAbstractFactorySerializableDelegateBeanDataFoundException("illegal bean data");
         this.m_int_abstractFactoryBeanData = newAbstractFactoryBeanData;
     }
 }</code></pre>

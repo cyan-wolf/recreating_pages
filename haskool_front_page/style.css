@@ -61,8 +61,12 @@ a:hover {
     padding: 10px;
 }
 
+.intro-demo p {
+    font-size: 20px;
+}
+
 .intro-demo .demo-code {
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .intro-demo .get-started {
