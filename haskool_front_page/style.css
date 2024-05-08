@@ -149,6 +149,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    user-select: none;
 }
 
 .testimonial-box {
@@ -178,6 +179,14 @@ a:hover {
 
 .testimonial-box .company-name-link:hover {
     color: rgb(0, 85, 0);
+}
+
+.testimonial-box p {
+    height: 190px;
+}
+
+.testimonial-box hr {
+    border-top: 4px solid green;
 }
 
 .features-grid {
