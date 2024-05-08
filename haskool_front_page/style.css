@@ -47,7 +47,6 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     gap: 5%;
-    /* background-color: aquamarine; */
 }
 
 .intro-image p {
@@ -56,7 +55,6 @@ a:hover {
 }
 
 .intro-demo {
-    /* background-color: bisque; */
     width: 30%;
     padding: 10px;
 }
@@ -72,7 +70,6 @@ a:hover {
 .intro-demo .get-started {
     text-align: center;
     margin-top: 20px;
-    /* overflow: hidden; */
 }
 
 .intro-demo .get-started-btn {
